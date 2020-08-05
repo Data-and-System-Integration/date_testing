@@ -95,7 +95,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>o.Date_day_of_week(o.getStart_date) ==1</valueString>
+        <valueString>o.Date_day_of_week(o.getStart_date()) ==1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -118,7 +118,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>o.Date_day_of_week(o.getStart_date) ==2</valueString>
+        <valueString>o.Date_day_of_week(o.getStart_date()) ==2</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -141,7 +141,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>o.Date_day_of_week(o.getStart_date) ==3</valueString>
+        <valueString>o.Date_day_of_week(o.getStart_date()) ==3</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -164,7 +164,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>o.Date_day_of_week(o.getStart_date) ==4</valueString>
+        <valueString>o.Date_day_of_week(o.getStart_date()) ==4</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -187,7 +187,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>o.Date_day_of_week(o.getStart_date) ==5</valueString>
+        <valueString>o.Date_day_of_week(o.getStart_date()) ==5</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -210,7 +210,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>o.Date_day_of_week(o.getStart_date) ==6</valueString>
+        <valueString>o.Date_day_of_week(o.getStart_date()) ==6</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -233,7 +233,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>o.Date_day_of_week(o.getStart_date) ==7</valueString>
+        <valueString>o.Date_day_of_week(o.getStart_date()) ==7</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
