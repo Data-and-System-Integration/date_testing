@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>start_date</name>
-          <value>15-Jul-2020</value>
+          <value>02-Jun-2020</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -16,15 +16,17 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>47</executionTimeResult>
+      <executionTimeResult>37</executionTimeResult>
       <numberOfRulesFired>2</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>end_date</fieldName>
-          <expected></expected>
-          <explanation>Fact of type [data_object] was not found in the results.</explanation>
+          <expected>25-Aug-2020</expected>
+          <actualResult>Wed Aug 05 09:20:01 EDT 2020</actualResult>
+          <successResult>false</successResult>
+          <explanation>[data_object] field [end_date] was [Wed Aug 05 09:20:01 EDT 2020] expected [25-Aug-2020].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -33,7 +35,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-05 13:14:21.693 UTC</lastRunResult>
+  <lastRunResult>2020-08-05 13:20:01.887 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.shubhi.date_testing</packageName>
