@@ -1,8 +1,34 @@
 <scenario>
-  <name>test1</name>
+  <name>test1.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
+  <fixtures>
+    <fact-data>
+      <type>data_object</type>
+      <fieldData>
+        <field-data>
+          <name>start_date</name>
+          <value>01-Aug-2020</value>
+          <nature>1</nature>
+        </field-data>
+      </fieldData>
+      <name>p</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace/>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>attr_62</fieldName>
+          <expected></expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>data_object</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
+  </fixtures>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.shubhi.date_testing</packageName>
