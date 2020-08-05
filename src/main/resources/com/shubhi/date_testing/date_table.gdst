@@ -55,7 +55,7 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>218</width>
+          <width>100</width>
           <header>set end_date</header>
           <varName>$default</varName>
           <fieldType>Date</fieldType>
@@ -143,7 +143,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueDate>2020-08-04 05:00:00.0 UTC</valueDate>
+        <valueDate>2020-08-01 05:00:00.0 UTC</valueDate>
         <valueString></valueString>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
