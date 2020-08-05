@@ -18,7 +18,7 @@ public class data_object implements java.io.Serializable {
 	}
 
 	public java.util.Date getStart_date() {
-	    SimpleDateFormat DateFor = new SimpleDateFormat("dd-MM-yyyy");
+	    SimpleDateFormat DateFor = new SimpleDateFormat("dd-MMM-yyyy");
 	    Date date = new Date();
 	    try{
         date = DateFor.parse(this.start_date.toString());
@@ -38,7 +38,7 @@ public class data_object implements java.io.Serializable {
 	}
 
 	public java.util.Date getEnd_date() {
-		SimpleDateFormat DateFor = new SimpleDateFormat("dd-MM-yyyy");
+		SimpleDateFormat DateFor = new SimpleDateFormat("dd-MMM-yyyy");
 	    Date date = new Date();
 	    try{
         date = DateFor.parse(this.end_date.toString());
