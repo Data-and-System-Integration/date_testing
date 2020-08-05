@@ -63,7 +63,7 @@ public class data_object implements java.io.Serializable {
         Calendar c = Calendar.getInstance();
         c.setTime(date_in);
         int dayOfWeek = c.get(Calendar.DAY_OF_WEEK);
-        return dayOfWeek;
+        return 1;
     }
 	
 }
