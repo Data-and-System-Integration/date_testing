@@ -1,1 +1,3 @@
-<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <kbase name="k1" default="true" eventProcessingMode="cloud" equalsBehavior="identity" packages="com.shubhi.date_testing" includes="k1"/>
+</kmodule>
