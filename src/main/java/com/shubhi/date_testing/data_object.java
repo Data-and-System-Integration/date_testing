@@ -40,8 +40,7 @@ public class data_object implements java.io.Serializable {
 	}
 
 	public void setEnd_date(java.util.Date end_date) {
-		SimpleDateFormat DateFor = new SimpleDateFormat("dd-MM-yyyy");
-		Date date = new Date();
+		SimpleDateFormat DateFor = new SimpleDateFormat("dd-MMM-yyyy");
 		try {
 			this.end_date = DateFor.parse(end_date.toString());
 		} catch (ParseException e) {
