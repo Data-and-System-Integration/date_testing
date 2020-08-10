@@ -43,10 +43,10 @@
         <org.drools.workbench.models.datamodel.rule.ActionUpdateField>
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>attr_62</field>
-              <value>o.Date_day_of_week(o.getStart_date()).toString()</value>
+              <field>date_day</field>
+              <value>o.Date_day_of_week(o.getStart_date())</value>
               <nature>3</nature>
-              <type>String</type>
+              <type>Integer</type>
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
           <variable>o</variable>
