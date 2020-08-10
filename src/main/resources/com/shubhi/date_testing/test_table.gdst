@@ -43,8 +43,8 @@
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>date_day</field>
-              <value>o.Date_day_of_week(o.getStart_date())</value>
-              <nature>3</nature>
+              <value>$default</value>
+              <nature>7</nature>
               <type>Integer</type>
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
@@ -56,8 +56,10 @@
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>set date day</header>
-          <varName></varName>
-          <fieldType>Boolean</fieldType>
+          <varName>$default</varName>
+          <fieldType>Integer</fieldType>
+          <factType>data_object</factType>
+          <factField>date_day</factField>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
@@ -114,9 +116,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
+        <valueNumeric class="int">3</valueNumeric>
         <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
