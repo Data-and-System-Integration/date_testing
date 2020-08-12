@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>start_date</name>
-          <value>04-Aug-2020</value>
+          <value>11-Aug-2020</value>
           <nature>1</nature>
         </field-data>
         <field-data>
@@ -21,7 +21,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>5</executionTimeResult>
+      <executionTimeResult>4</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -40,7 +40,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-12 13:44:48.621 UTC</lastRunResult>
+  <lastRunResult>2020-08-12 13:47:17.240 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.shubhi.date_testing</packageName>
