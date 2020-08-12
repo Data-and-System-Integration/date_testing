@@ -59,9 +59,9 @@ public class data_object implements java.io.Serializable {
 		this.attr_62 = attr_62;
 	}
 
-	public int Date_day_of_week(java.util.Date date_in) {
+	public int Date_day_of_week() {
 		Calendar c = Calendar.getInstance();
-		c.setTime(date_in);
+		c.setTime(this.start_date);
 		int dayOfWeek = c.get(Calendar.DAY_OF_WEEK);
 		return dayOfWeek;
 	}
