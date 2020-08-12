@@ -22,7 +22,6 @@
           <header>date day equals </header>
           <constraintValueType>5</constraintValueType>
           <factField></factField>
-          <fieldType></fieldType>
           <operator>--- please choose ---</operator>
           <parameters/>
         </condition-column52>
@@ -96,7 +95,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>o.Date_day_of_week(o.getStart_date()) == 3</valueString>
+        <valueString>o.Date_day_of_week() == 3</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
