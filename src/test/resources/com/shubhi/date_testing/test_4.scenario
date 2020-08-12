@@ -16,22 +16,27 @@
           <value>monday</value>
           <nature>4</nature>
         </field-data>
+        <field-data>
+          <name>date_day</name>
+          <value>3</value>
+          <nature>4</nature>
+        </field-data>
       </fieldData>
       <name>a</name>
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>4</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <executionTimeResult>1</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>attr_62</fieldName>
           <expected></expected>
-          <actualResult>monday</actualResult>
+          <actualResult>tuesday</actualResult>
           <successResult>false</successResult>
-          <explanation>[data_object] field [attr_62] was [monday] expected [].</explanation>
+          <explanation>[data_object] field [attr_62] was [tuesday] expected [].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -40,7 +45,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-12 13:47:17.240 UTC</lastRunResult>
+  <lastRunResult>2020-08-12 13:49:34.934 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.shubhi.date_testing</packageName>
