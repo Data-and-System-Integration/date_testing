@@ -27,7 +27,7 @@ public class data_object implements java.io.Serializable {
 	}
 
 	public void setStart_date(java.util.Date start_date) {
-		SimpleDateFormat DateFor = new SimpleDateFormat("dd-MM-yyyy");
+		SimpleDateFormat DateFor = new SimpleDateFormat("dd-MMM-yyyy");
 		try {
 			this.start_date = DateFor.parse(start_date.toString());
 		} catch (ParseException e) {
