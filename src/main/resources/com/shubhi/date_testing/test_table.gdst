@@ -95,7 +95,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>o.Date_day == 3</valueString>
+        <valueString>o.dateDay() == 3</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
