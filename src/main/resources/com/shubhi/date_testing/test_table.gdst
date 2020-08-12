@@ -18,17 +18,6 @@
       <conditions>
         <condition-column52>
           <hideColumn>false</hideColumn>
-          <width>308</width>
-          <header>start date not null</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>start_date</factField>
-          <fieldType>Date</fieldType>
-          <operator>!= null</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-        <condition-column52>
-          <hideColumn>false</hideColumn>
           <width>289</width>
           <header>date day equals </header>
           <constraintValueType>5</constraintValueType>
@@ -45,33 +34,6 @@
     </Pattern52>
   </conditionPatterns>
   <actionCols>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>date_day</header>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionUpdateField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>date_day</field>
-              <value>o.Date_day_of_week(o.getStart_date())</value>
-              <nature>3</nature>
-              <type>Integer</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>o</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionUpdateField>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>288</width>
-          <header>date_day</header>
-          <varName></varName>
-          <fieldType>Boolean</fieldType>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
     <set-field-col52>
       <typedDefaultValue>
         <valueString></valueString>
@@ -134,20 +96,8 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>o.Date_day_of_week(o.getStart_date()) == 3</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
