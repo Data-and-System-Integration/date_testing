@@ -18,13 +18,14 @@
       <conditions>
         <condition-column52>
           <hideColumn>false</hideColumn>
-          <width>498</width>
-          <header>date day</header>
-          <constraintValueType>5</constraintValueType>
-          <factField></factField>
-          <fieldType></fieldType>
-          <operator>--- please choose ---</operator>
+          <width>308</width>
+          <header>start date not null</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>start_date</factField>
+          <fieldType>Date</fieldType>
+          <operator>!= null</operator>
           <parameters/>
+          <binding></binding>
         </condition-column52>
       </conditions>
       <window>
@@ -37,14 +38,14 @@
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>set date day</header>
+      <header>date_day</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.ActionUpdateField>
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>date_day</field>
-              <value>$default</value>
-              <nature>7</nature>
+              <value>o.Date_day_of_week(o.getStart_date())</value>
+              <nature>3</nature>
               <type>Integer</type>
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
@@ -54,12 +55,10 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>set date day</header>
-          <varName>$default</varName>
-          <fieldType>Integer</fieldType>
-          <factType>data_object</factType>
-          <factField>date_day</factField>
+          <width>288</width>
+          <header>date_day</header>
+          <varName></varName>
+          <fieldType>Boolean</fieldType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
@@ -111,14 +110,15 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>o.Date_day_of_week(o.getStart_date()) == 3</valueString>
-        <dataType>STRING</dataType>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">3</valueNumeric>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
