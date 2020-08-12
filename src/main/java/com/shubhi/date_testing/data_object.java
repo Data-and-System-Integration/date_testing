@@ -27,13 +27,14 @@ public class data_object implements java.io.Serializable {
 	}
 
 	public void setStart_date(java.util.Date start_date) {
-		SimpleDateFormat DateFor = new SimpleDateFormat("dd-MMM-yyyy");
+	/*	SimpleDateFormat DateFor = new SimpleDateFormat("dd-MMM-yyyy");
 		try {
 			this.start_date = DateFor.parse(start_date.toString());
 		} catch (ParseException e) {
 			e.printStackTrace();
-		}
-
+		}*/
+		
+        this.start_date = start_date;
 	}
 
 	public java.util.Date getEnd_date() {
@@ -42,12 +43,13 @@ public class data_object implements java.io.Serializable {
 	}
 
 	public void setEnd_date(java.util.Date end_date) {
-		SimpleDateFormat DateFor = new SimpleDateFormat("dd-MMM-yyyy");
+		/*SimpleDateFormat DateFor = new SimpleDateFormat("dd-MMM-yyyy");
 		try {
 			this.end_date = DateFor.parse(end_date.toString());
 		} catch (ParseException e) {
 			e.printStackTrace();
-		}
+		}*/
+		 this.end_date = end_date;
 
 	}
 
