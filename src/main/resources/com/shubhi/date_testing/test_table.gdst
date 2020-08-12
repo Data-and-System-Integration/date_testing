@@ -27,6 +27,16 @@
           <parameters/>
           <binding></binding>
         </condition-column52>
+        <condition-column52>
+          <hideColumn>false</hideColumn>
+          <width>289</width>
+          <header>date day equals </header>
+          <constraintValueType>5</constraintValueType>
+          <factField></factField>
+          <fieldType></fieldType>
+          <operator>--- please choose ---</operator>
+          <parameters/>
+        </condition-column52>
       </conditions>
       <window>
         <parameters/>
@@ -62,6 +72,20 @@
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>set attr</header>
+      <boundName>o</boundName>
+      <factField>attr_62</factField>
+      <type>String</type>
+      <update>true</update>
+    </set-field-col52>
   </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
@@ -116,9 +140,19 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>o.Date_day_of_week(o.getStart_date()) == 3</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>&quot;Tuesday&quot;</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
