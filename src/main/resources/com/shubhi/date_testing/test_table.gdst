@@ -41,11 +41,11 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>100</width>
-      <header>set attr</header>
+      <header>attr 62</header>
       <boundName>o</boundName>
       <factField>attr_62</factField>
       <type>String</type>
-      <update>true</update>
+      <update>false</update>
     </set-field-col52>
   </actionCols>
   <auditLog>
@@ -100,7 +100,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&quot;Tuesday&quot;</valueString>
+        <valueString>&quot;tuesday&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
