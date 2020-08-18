@@ -1,5 +1,5 @@
 <decision-table52>
-  <tableName>abcd!</tableName>
+  <tableName>date_table</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>50</width>
